@@ -1,0 +1,316 @@
+*{
+box-sizing: border-box;
+
+}
+
+.container{
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 0;
+    background: var(--Dark, #2F343A);
+
+.nav{
+    display: flex;
+    width: auto;
+    height: 45px;
+    justify-content: space-evenly;
+    background-color: #C8A35F;
+    flex-shrink: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.li{
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+.li:hover{
+    color: rgba(101, 101, 101, 0.516);
+
+}
+.logo-tit{
+    width: 97px;
+    height: 16px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+}
+
+.first-line{
+    display: flex;
+    width: 1000px;
+    height: 46px;
+    justify-content: space-evenly;
+    margin-left: 130px;
+}
+.ull{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #FFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lii{
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+.lii:hover{
+    color: rgba(101, 101, 101, 0.516);
+
+}
+
+.logo{
+    margin-right: 300px;
+    cursor: pointer;
+}
+.line{
+    height: 46px;
+    border: solid white 1px;
+}
+.logo-tit:hover{
+    color: beige;
+}
+
+.backround-img{
+    width: auto;
+    height: 400px;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 130px 300px 200px 300px;
+}
+
+.h-tit{
+    border: solid yellow 1px;
+    display: inline-block;
+    width: 652px;
+    height: 190px;
+    padding: 20px 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+
+.fon{
+    width: 492px;
+    height: 365px;
+    background-color: #393F47;
+    
+}
+.section{
+    height: 365px;
+    width: 1252px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../images/fon\ qora.png);
+    background-position: 50%;
+}
+.read-more-link {
+    display: inline-block;
+    padding: 10px 70px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #C8A35F;
+    transition: background-color 0.3s ease;
+    text-decoration-color: #000000;
+    margin-top: 30px;
+  }
+  
+  .read-more-link:hover {
+    background-color: #ffffff;
+    border: 0.5px solid black;
+    color: #000000;
+}
+.line-hr{
+    height: 3px;
+    width: 58px;
+    background-color: #eaa309;
+}
+.text{
+    display: inline-block;
+    color: white;
+    width: 320px;
+    height: 203px;
+    margin-left: 163px;
+
+}
+.truck{
+    width: 290px;
+    height: 173px;
+}
+
+.service img {
+    width: 104px;
+    height: 13px;
+    cursor: pointer;
+}
+.service{
+    height: 187px;
+    width: 104px;
+    margin-right: 50px;
+
+}
+.plane-box{
+    height: 484px;
+    width: 1252px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.planes{
+    height: 235px;
+    width: 725px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    margin-top: 40px;
+
+}
+.box-plane{
+    height: 328px;
+    width: 722px;
+    color: #FFF;
+}
+
+.lines-hr{
+    width: 58px;
+    height: 4px;
+    background-color: #C8A35F;
+}
+
+.pln{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+
+}
+.airlpane{
+    width: 180px;
+    height: 117px;
+    background-color: #C8A35F;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+}
+.airlpane2{
+
+    width: 180px;
+    height: 117px;
+    background-color: #393F47;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+}
+.plln{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #393F47;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.content-place{
+    height: 392px;
+    width: 1252px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-box{
+
+    width: 730px;
+    height: 320px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../images/Rectangle.png);
+
+}
+.main-content{
+    width: 290px;
+    height: 314px;
+    display: inline-block;
+
+
+}
+
+.pics{
+    width: 395px;
+    height: 211px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.card{
+    width: 130px;
+    height: 104px;
+    background-color: #FFF;
+    color: #2F343A;
+    border: rgb(255, 123, 0) 0.5px solid;
+    text-align: center;
+}
+
+.pics p{
+    margin: 10px 0;
+}
+
+.card img{
+    width: 130px;
+    height: 104px;
+    background-color: #FFF;
+    color: #2F343A;
+    border: rgb(255, 123, 0) 0.5px solid;
+    text-align: center;
+}
+
+.navv{
+    display: flex;
+    width: auto;
+    height: 104px;
+    justify-content: space-evenly;
+    background-color: #C8A35F;
+    flex-shrink: 0;
+    color: white;
+    font-family: sans-serif;
+    align-items: center;
+}
+.navv img{
+    width: 104px;
+    height: 30px;
+}
+
+.airlpane2:hover{
+    background-color: #C8A35F;
+    transition: background-color 0.6s ease;
+}
+.maps{
+    height: 300px;
+    width: auto;
+}
+
